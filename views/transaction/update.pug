@@ -1,0 +1,9 @@
+h1 Update
+
+form(action="/transactions/update" method="POST")
+  input(name="id" type="hidden" value=transaction.id)
+  label User Id 
+  input(name="userId" type="text" value=transaction.userId)
+  label User Book 
+  input(name="bookId" type="text" value=transaction.bookId)
+  button Update
